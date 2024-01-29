@@ -30,7 +30,6 @@ body{
     border-radius: 100%;
 }
 
-
 .name{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -38,6 +37,20 @@ body{
     font-family: sans-serif;
     color: #FFFFFF;
 }
+
+.title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    color: #FFFFFF;
+	align-items: center;
+	text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 .container_links {
     display: flex;
     align-items: center;
